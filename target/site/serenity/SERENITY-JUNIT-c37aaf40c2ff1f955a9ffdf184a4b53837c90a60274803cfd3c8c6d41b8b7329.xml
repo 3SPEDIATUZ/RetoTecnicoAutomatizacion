@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Academy Choucair" skipped="0" tests="1" time="0.46" timestamp="2022-09-27 09:42:54"><testcase name="Register on the uTest site"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+co.com.choucair.certification.proyectobase.stepdefinitions.UtestStepDefinitions.sinceIvanWantsToTestHisAutomationCodeWeOpenTheUtestSite(UtestStepDefinitions.java:20)&#13;
+✽.Since Ivan wants to test his automation code, we open the Utest site(src/test/resources/features/academyChoucair.feature:7)&#13;
+</system-err></testcase></testsuite>
