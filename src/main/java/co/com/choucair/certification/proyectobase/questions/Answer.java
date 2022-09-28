@@ -1,6 +1,6 @@
 package co.com.choucair.certification.proyectobase.questions;
 
-import co.com.choucair.certification.proyectobase.userinterface.UterJoinTodayPage;
+import co.com.choucair.certification.proyectobase.userinterface.UterJoinTodaySite;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
@@ -19,7 +19,7 @@ public class Answer implements Question<Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
 
-        String passRegister = Text.of(UterJoinTodayPage.PASS_REGISTER).viewedBy(actor).asString();
+        String passRegister = Text.of(UterJoinTodaySite.PASS_REGISTER).viewedBy(actor).asString();
         boolean result;
 
         System.out.printf("question: "+question+"\n");

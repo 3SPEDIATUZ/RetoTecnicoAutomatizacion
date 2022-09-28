@@ -4,7 +4,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class UterJoinTodayPage extends PageObject {
+public class UterJoinTodaySite extends PageObject {
 
     public static final Target JOINTODAY_BUTOON = Target.the("Boton para iniciar el registro").
             located(By.className("unauthenticated-nav-bar__sign-up"));
